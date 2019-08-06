@@ -1,0 +1,21 @@
+2019-08-06 16:24:51,279  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:01,625  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (3d800e29856dc20af1c0a2d83aa8a20c)
+2019-08-06 16:25:01,625  INFO [main] LogReportinformation:22 - chrome invoked...
+2019-08-06 16:25:07,667  INFO [main] LogReportinformation:22 - Title is: Broadleaf Commerce Demo Store - Heat Clinic - Merchandise
+2019-08-06 16:25:10,342  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:13,362  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (89904be48429e9cab2cfaabeb8669300)
+2019-08-06 16:25:13,362  INFO [main] LogReportinformation:22 - chrome invoked...
+2019-08-06 16:25:18,361  INFO [main] LogReportinformation:22 - Title is :Broadleaf Commerce Demo Store - Heat Clinic - Hot Sauces
+2019-08-06 16:25:19,237  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:22,519  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (4bcc00cddf22046f5ffd92cd35e3fb54)
+2019-08-06 16:25:22,520  INFO [main] LogReportinformation:22 - chrome invoked...
+2019-08-06 16:25:29,320  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:33,173  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (5021cd36f866cbb568377fdf8e0ac14c)
+2019-08-06 16:25:33,173  INFO [main] LogReportinformation:22 - chrome invoked...
+2019-08-06 16:25:38,813  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:41,949  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (06479bddb173fc6a819640dd6bc0ff88)
+2019-08-06 16:25:41,951  INFO [main] LogReportinformation:22 - chrome invoked...
+2019-08-06 16:25:46,432  INFO [main] LogReportinformation:22 - Broadleaf Commerce Demo Store - Heat Clinic - New to Hot Sauce
+2019-08-06 16:25:47,506  INFO [main] LogReportinformation:22 - invoke
+2019-08-06 16:25:50,971  INFO [main] LogReportinformation:22 - Chrome driver set ChromeDriver: chrome on XP (1d5224562497c175f8f6eed54915bce2)
+2019-08-06 16:25:50,981  INFO [main] LogReportinformation:22 - chrome invoked...
