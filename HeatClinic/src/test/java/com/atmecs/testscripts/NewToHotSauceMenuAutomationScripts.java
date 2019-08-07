@@ -4,14 +4,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.atmecs.logreports.LogReportinformation;
+import com.atmecs.logreports.LogReportInformation;
 import com.atmecs.testsuite.TestBase;
 import com.atmecs.util.CommonUtilities;
 
 
-public class NewToHotSauce extends TestBase {
+public class NewToHotSauceMenuAutomationScripts extends TestBase {
 WebDriver driver;
-LogReportinformation log=new LogReportinformation();	
+LogReportInformation log=new LogReportInformation();	
 	@BeforeTest
 	public void setup()
 	{
@@ -25,7 +25,7 @@ LogReportinformation log=new LogReportinformation();
 	public void newtohotsauce()
 	{
 		CommonUtilities   obj =new  CommonUtilities ();
-		obj.ClickOnElement(driver, menuprops.getProperty("btn_newtohotsauce"), "NEW TO HOT SAUCE?");
+		obj.assertion(driver, menuprops.getProperty("loc_newtohotsauce_menu"), "NEW TO HOT SAUCE?");
         log.info(driver.getTitle());
 	
 	}

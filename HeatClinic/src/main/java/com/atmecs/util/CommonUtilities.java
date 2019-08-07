@@ -16,7 +16,9 @@ import com.google.common.base.Function;
  * @author Unnamalai.S
  *  This class contains ClickOnElement method, mouseover method, Click method.
  *  ClickOnElement method contains click operations and assert operations.
- *  mouseover method contains 
+ *  mouseover method contains hover (mouseover) functionality  with the help of the Actions class, 
+ *  which provides the ability to move the mouse over an element. 
+ *  click method contains click operations
  */
 public class CommonUtilities {
 	
@@ -28,7 +30,7 @@ public class CommonUtilities {
 	
 	}
 	
-	public   void ClickOnElement(WebDriver driver, final String xpath,final String expected) 
+	public   void assertion(WebDriver driver, final String xpath,final String expected) 
 	{
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
 	
@@ -60,7 +62,7 @@ public class CommonUtilities {
 		});
 		
 		}
-	public   void Click(WebDriver driver, final String xpath) 
+	public   void click(WebDriver driver, final String xpath) 
 	{
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
 	

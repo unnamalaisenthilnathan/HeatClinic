@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.atmecs.testsuite.TestBase;
 import com.atmecs.util.CommonUtilities;
 
-public class FAQ extends TestBase{
+public class FAQMenuAutomationScripts extends TestBase{
 	WebDriver driver;
 	
 
@@ -26,7 +26,7 @@ public class FAQ extends TestBase{
 	{
 
 		CommonUtilities   obj=new  CommonUtilities ();
-        obj.ClickOnElement(driver, menuprops.getProperty("FAQ_btn"), "FAQ");
+        obj.assertion(driver, menuprops.getProperty("loc_faq_menu"), "FAQ");
 	
 		}
 	

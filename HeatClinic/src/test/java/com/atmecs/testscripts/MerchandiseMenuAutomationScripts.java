@@ -6,12 +6,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.atmecs.util.*;
-import com.atmecs.logreports.LogReportinformation;
+import com.atmecs.logreports.LogReportInformation;
 import com.atmecs.testsuite.TestBase;
 
-public class Merchandise extends TestBase {
+public class MerchandiseMenuAutomationScripts extends TestBase {
 	WebDriver driver;
-	LogReportinformation log=new LogReportinformation();
+	LogReportInformation log=new LogReportInformation();
 	
 	@BeforeTest
 	public void setup() {
@@ -27,16 +27,16 @@ public class Merchandise extends TestBase {
 
 		CommonUtilities obj = new CommonUtilities();
 
-	obj.ClickOnElement(driver, menuprops.getProperty("btnmerchandise"), "MERCHANDISE");
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_menu"), "MERCHANDISE");
 	
-	obj.mouseover(driver, menuprops.getProperty("btnmerchandise"));
-	obj.ClickOnElement(driver, menuprops.getProperty("dropdownmens"), "MENS");
+	obj.mouseover(driver, menuprops.getProperty("loc_merchandise_menu"));
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_submenu_mens"), "MENS");
     
 	driver.navigate().back();
 
 
-	obj.mouseover(driver, menuprops.getProperty("btnmerchandise"));
-	obj.ClickOnElement(driver, menuprops.getProperty("dropdownwomens"), "WOMENS");
+	obj.mouseover(driver, menuprops.getProperty("loc_merchandise_menu"));
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_submenu_womens"), "WOMENS");
 	
 	}
 

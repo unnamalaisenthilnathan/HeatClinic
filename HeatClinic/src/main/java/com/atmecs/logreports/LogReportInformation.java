@@ -5,13 +5,13 @@ import org.apache.log4j.PropertyConfigurator;
 
 import com.atmecs.constants.ProjectPathConstants;
 
-public class LogReportinformation {
+public class LogReportInformation {
 
 Logger logger = null;
 
-public LogReportinformation() {
+public LogReportInformation() {
 getlogger();
-logger = Logger.getLogger(LogReportinformation.class.getName());
+logger = Logger.getLogger(LogReportInformation.class.getName());
 }
 
 public void getlogger() {

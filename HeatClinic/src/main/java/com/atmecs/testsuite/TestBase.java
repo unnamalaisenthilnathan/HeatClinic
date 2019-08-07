@@ -10,11 +10,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.atmecs.constants.ProjectPathConstants;
-import com.atmecs.logreports.LogReportinformation;
+import com.atmecs.logreports.LogReportInformation;
 import com.atmecs.util.PropertiesUtil;
 
 public class TestBase  {
-	LogReportinformation log=new LogReportinformation();
+	LogReportInformation log=new LogReportInformation();
 	WebDriver driver;
 
     public static Properties configProps = PropertiesUtil.loadProperty(ProjectPathConstants.config);
